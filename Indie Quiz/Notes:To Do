@@ -1,0 +1,16 @@
+- Need to more efficiently write -genRandQuote. It is going to get too cumbersome to use switch
+    :::Done, thank to Nick.
+
+- Need a way to cross check the list of quotes for repeats once it gets large
+
+- I want to start a master file for all the quotes and read them into the program, either into an array which will randomize
+    them, or randomly choosen from the file. 
+    
+- Need to spice up the user interface with some cool graphics to make it look nice
+
+- I want to have a WinStudios launch image with a sound effect
+ 
+- Need to make the text wrap so the whole quote can be read... maybe use a scroll view as an embedded subview of the window??
+    :::I solved this issue for now using the numberOfLines property of UILabel but this is not a
+    :::permanent solution becasue some quotes may be really long.
+
